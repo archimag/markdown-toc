@@ -121,7 +121,7 @@ function generate(options) {
  */
 
 function bullets(arr, options) {
-  var opts = utils.merge({indent: '  '}, options);
+  var opts = utils.merge({indent: '   '}, options);
   opts.chars = opts.chars || opts.bullets || ['-', '*', '+'];
   var unindent = 0;
 
